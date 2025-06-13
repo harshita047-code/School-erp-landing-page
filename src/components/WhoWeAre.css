@@ -1,0 +1,61 @@
+.who-we-are-section {
+    background: #f5f5f5; 
+    background-image: url('https://wallpaperaccess.com/full/3400326.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px !important;
+    padding-bottom: 50px;
+    font-family: 'Segoe UI', sans-serif !important;
+  }
+  
+  .sub-heading {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: #f8e00b;
+  }
+  
+  .main-heading {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #970306;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .read-more-btn {
+    background-color:transparent;
+    color: #970306;
+    border: 2px solid #970306;
+    padding: 10px 21px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #970306;
+    color: #fff;
+  }
+  
+  
+  .icon-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    transition: transform 0.4s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    color: #970306;
+  }
+  
+  .icon-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .icon-card img {
+    width: auto;
+    margin-bottom: 10px;
+  }
+  

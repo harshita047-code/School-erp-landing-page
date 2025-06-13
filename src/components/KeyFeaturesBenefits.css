@@ -1,0 +1,72 @@
+/* .key-benefits-section {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/026/637/946/non_2x/red-white-modern-abstract-background-design-vector.jpg);
+    background-position: center;
+    background-size: cover;
+  } */
+  
+  .feature-card:hover,
+  .benefit-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.2);
+  }
+ 
+  .icon {
+  color:#970306;
+   
+  } 
+  .heading{
+    color: #970306;
+    
+  }
+  .icon {
+    background-color: #e9f2ff;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  
+  .icon:hover {
+    animation: bounceIcon 0.6s ease;
+  }
+  
+  
+  @keyframes bounceIcon {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-8px); }
+    60%  { transform: translateY(4px); }
+    100% { transform: translateY(0); }
+  }
+  @media (max-width: 480px) {
+    .key-benefits-section {
+      background-size: cover;
+      background-position: top center;
+      /* padding: 0px 10px; */
+      padding-left: 20px;
+    }
+  
+    .icon {
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    .feature-card,
+    .benefit-card {
+      /* width: 100% !important; */
+      margin-bottom: 20px;
+    
+    }
+    .heading{
+        font-size: 30px;
+        
+    }
+
+    
+    
+  }
+  
+  

@@ -1,0 +1,128 @@
+
+.modern-footer {
+    background: #730607;
+    padding: 60px 20px 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  .footer-about,
+  .footer-center,
+  .footer-social {
+    margin-bottom: 30px;
+    max-width: 600px;
+  }
+  .footer-logo {
+    max-width: 200px; 
+    margin-bottom: 20px; 
+    display: block;
+    margin-left: 0%;
+    margin-right: auto;
+  }
+  
+  
+  .footer-about h5,
+  .footer-center h5,
+  .footer-social h5 {
+    color: #ffdadb;
+    font-size: 20px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  
+  .footer-about p,
+  .footer-center ul,
+  .footer-center p,
+  .footer-social p {
+    color: #f2c5c6;
+    font-size: 16px;
+  }
+  
+  
+  .footer-center ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .footer-center ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-center ul li a {
+    color: #f2c5c6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-center ul li a:hover {
+    color: #ffe2e3;
+  }
+  
+  
+  .cta-button {
+    background-color: #ffc107 !important;
+    border: none;
+    color:rgb(196, 7, 7) !important;
+    font-weight: 700 !important;
+    padding: 10px 24px;
+    margin-top: 15px;
+    border-radius: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 132, 132, 0.151);
+  }
+  
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #ffb5b5;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    color: #ffe2e3;
+  }
+  
+  
+  .footer-social .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #f2c5c6;
+  }
+  
+  
+  @media (min-width: 480px) {
+    .footer-content {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+    }
+  
+    .footer-about,
+    .footer-center,
+    .footer-social {
+      flex: 1;
+      margin: 0 20px;
+    }
+   
+  }
+  

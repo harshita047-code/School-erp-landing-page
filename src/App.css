@@ -1,0 +1,51 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; 
+  font-family: 'Rubik', sans-serif !important;
+    background: linear-gradient(135deg, #ffffff, #f4f4f4, #ededed, #fefefe);
+
+}
+
+
+.container,
+.container-fluid,
+.row,
+.col,
+footer {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+img, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+@media (max-width: 768px) {
+  .navbar, .footer, .content {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .container, .row, .col {
+    width: 100%;
+    max-width: 100%;
+  }
+}

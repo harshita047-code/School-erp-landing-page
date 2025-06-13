@@ -1,0 +1,229 @@
+.hero-section {
+    position: relative;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .hero-bg {
+    /* background: linear-gradient(to right, #DADADA, #F2F2F2); */
+    background-image: url(https://static.vecteezy.com/system/resources/previews/009/512/670/non_2x/abstract-white-and-gray-color-modern-design-background-with-geometric-shape-illustration-vector.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    margin-bottom: auto;
+    padding-top: 100px;
+    color: #970508;
+    
+  }
+  .hero-content h1{
+    font-weight: 800;
+  }
+  .hero-content p{
+    color: #970306;
+    font-weight: 700;
+  }
+  .badge {
+    display: inline-block;
+    color:#970508 !important;
+    font-weight: 600;
+    padding: 10px 17px;
+    margin-top: 10px;
+    font-size: 20px !important;
+   
+  }
+  
+  
+  .enquiry-section {
+    background-color: whitesmoke;
+    padding: 40px 110px;
+    padding-left: 40px;
+    color: white;
+    margin: 70px;
+    margin-bottom: 0%;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images5/The-best-Cool-Red-and-White-Wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    box-shadow: 0px 20px 20px rgba(65, 64, 64, 0.781);
+  }
+  
+  .enquiry-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .left-section {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+   
+    
+   
+  }
+  
+  
+  .call-icon {
+    font-size: 65px;
+    color: white;
+    margin-bottom: 35px;
+  }
+  
+  .call-text {
+    font-size: 30px;
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .call-number {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .right-section {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .form-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .enquiry-form input[type="text"],
+  .enquiry-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  .enquiry-form input::placeholder{
+    color: #fff;
+
+  }
+  .enquiry-form input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
+   border: 1px solid #dad8d8;
+}
+  .radio-group {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffc107;
+  }
+  
+  .enquiry-form button {
+    background-color: #ffc107;
+    color: rgb(196, 7, 7);
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .enquiry-form button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 132, 132, 0.151);
+  }
+  .enquiry-form .terms {
+    font-size: 12px;
+    margin-top: 10px;
+     color: #ffc107 ;
+  }
+  
+  .enquiry-form .terms a {
+    color: #ffc107 ;
+    text-decoration: underline;
+  }
+  @media (max-width: 480px) {
+    .hero-bg {
+      padding-top: 50px; 
+    }
+  
+    .hero-content {
+      padding-top: 60px; 
+      text-align: center;
+    }
+  
+    .enquiry-section {
+      padding: 20px 20px;
+      margin: 20px; 
+      background-size: cover;
+      border-top-left-radius: 40px; 
+      border-bottom-right-radius: 40px;
+
+    }
+  
+    .enquiry-container {
+      flex-direction: column;
+      gap: 20px; 
+    }
+  
+    .left-section,
+    .right-section {
+      min-width: 100%;
+      text-align: center;
+    }
+  
+    .call-icon {
+      font-size: 50px; 
+    }
+  
+    .call-text {
+      font-size: 24px; 
+    }
+  
+    .call-number {
+      font-size: 24px; 
+    }
+  
+    .form-title {
+      font-size: 18px; 
+    }
+  
+    .enquiry-form input[type="text"],
+    .enquiry-form input[type="email"] {
+      font-size: 12px; 
+    }
+  
+    .enquiry-form button {
+      width: 100%; 
+      font-size: 14px; 
+      padding: 12px; 
+    }
+  
+    .enquiry-form .terms {
+      font-size: 10px; 
+    }
+  }

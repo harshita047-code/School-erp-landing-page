@@ -1,0 +1,72 @@
+
+
+.navbar {
+    padding: 12px 20px;
+    background-color: white !important;
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  
+  button.btn-outline-danger {
+    border: none;
+    color: #970306; 
+    background: transparent;
+    font-size: 1.2rem;
+  }
+  
+  button.btn-outline-danger:hover {
+    background-color: #f2f2f2;
+    color: #970306;
+  }
+  
+  
+  .offcanvas {
+    width: 250px;
+    color: #970306;
+   
+  }
+  
+  .offcanvas-header {
+    border-bottom: 1px solid #970306;
+  }
+  
+  .offcanvas-body ul {
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+  .tittle-offcanvas{
+    color: #970306 !important;
+  }
+  .offcanvas-body li {
+    margin-bottom: 1rem;
+  }
+  
+  .offcanvas-body a {
+    color: #970306;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .offcanvas-body a:hover {
+    color: #970306;
+    text-decoration: none;
+    
+  }
+  
+  
+  @media (max-width: 576px) {
+    .navbar-brand img {
+      width: 160px !important;
+      height: auto !important;
+    }
+    .offcanvas {
+        width: 200px !important;
+      
+      }
+      
+  }
+  
