@@ -11,7 +11,8 @@
   .sub-heading {
     font-size: 1.5rem;
     letter-spacing: 1px;
-    color: #f8e00b;
+    color: #ff9100;
+    font-weight: 700;
   }
   
   .main-heading {
